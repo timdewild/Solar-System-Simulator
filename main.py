@@ -1,3 +1,5 @@
+# June 2023, written by Tim de Wild
+
 import numpy as np
 import matplotlib.pyplot as plt
 import datetime
