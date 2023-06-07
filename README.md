@@ -3,7 +3,7 @@ Python module to simulate and animate the solar system in real time. An example 
 
 https://github.com/timdewild/Solar-System-Simulator/assets/93600756/b6287190-0d8b-46c2-87b6-47cd2a328b51
 
-You can also download the video [here](inner_solar_system.mp4)
+You can also download the video [here](inner_solar_system.mp4). The notebook `example.ipynb` explains in detail how this is done. 
 
 ## Author
 
@@ -12,12 +12,12 @@ Tim de Wild
 ## Modules required
 The modules required are:
 `
-
+numpy
+matplotlib
+datetime
+astropy
+astroquery
 `
-
-numpy, matplotlib, datetime
-
-Optional: astroquery (to retrieve planets data from nasa.org and generate initial condition)
 
 ## How to run
 With the required modules installed, simply run the program, e.g. in UNIX command line, with
