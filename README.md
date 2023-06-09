@@ -29,6 +29,12 @@ The solar system is essentially an $n$-body system of point-particles that inter
 \boldsymbol{F}_{ij} = -\frac{Gm_im_j}{r_{ij}^2}\hat{\boldsymbol{r}}_{ij}.
 ```
 
+The total force on $i$ is obtained by taking the sum over all bodies $j$ except itself:
+
+```math
+\boldsymbol{F}_{i} = \sum_{j\neq i}-\frac{Gm_im_j}{r_{ij}^2}\hat{\boldsymbol{r}}_{ij}.
+```
+
 
 ## References
 
