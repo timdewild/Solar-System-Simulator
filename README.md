@@ -35,6 +35,12 @@ The total force on $i$ is obtained by taking the sum over all bodies $j$ except 
 \boldsymbol{F}_{i} = \sum_{j\neq i}-\frac{Gm_im_j}{r_{ij}^2}\hat{\boldsymbol{r}}_{ij}.
 ```
 
+The acceleration of body $i$ is obtained by dividing by $m_i$. In celestial mechanics, it is customary to define the gravitational parameter as $\mu_j\equiv Gm_j$, so that the acceleration becomes:
+
+```math
+\boldsymbol{a}_i = \sum_{j\neq i} -\mu_j \frac{\hat{\boldsymbol{r}}_{ij}}{r_{ij}}. 
+```
+
 
 ## References
 
