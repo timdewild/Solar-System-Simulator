@@ -49,7 +49,10 @@ In the code, we have implemented two numerical integration schemes: the Forward-
 ### Forward Euler
 This scheme is given by:
 ```math
-\boldsymbol{v}_i^{(n+1)} = \boldsymbol{v}_i^{n}+\boldsymbol{a}_i^{n}\;dt
+\begin{align}
+   \boldsymbol{v}_i^{(n+1)} & = \boldsymbol{v}_i^{n}+\boldsymbol{a}_i^{n}\;dt \\
+   \boldsymbol{r}_i^{(n+1)} & = \boldsymbol{r}_i^{n}+\boldsymbol{v}_i^{n}\;dt
+\end{align}
 ```
 
 
