@@ -54,8 +54,11 @@ This scheme is given by:
    \boldsymbol{r}_i^{n+1} & = \boldsymbol{r}_i^{n}+\boldsymbol{v}_i^{n}\;dt.
 \end{align}
 ```
-The index $i$ labels the bodies, the index $n$ labels the time, which is descritized in steps of $dt$. 
+The index $i$ labels the bodies, the index $n$ labels the time, which is descritized in steps of $dt$. The acceleration of body $i$ depends solely on its own position and that of the other bodies:
 
+```math
+\boldsymbol{a}_i^{n} = \boldsymbol{a}_i(\boldsymbol{r}_i^n, \boldsymbol{r}_j^n). 
+```
 
 
 
