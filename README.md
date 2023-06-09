@@ -41,7 +41,13 @@ The acceleration of body $i$ is obtained by dividing by $m_i$. In celestial mech
 \boldsymbol{a}_i = \ddot{\boldsymbol{r}}_{ij} = \sum_{j\neq i} -\mu_j \frac{\hat{\boldsymbol{r}}_{ij}}{r_{ij}^2}. 
 ```
 
-To find the orbits of the $N$ bodies, we have to solve the second order differential equation for each of the bodies simultaneously. 
+To find the orbits of the $N$ bodies, we have to solve this second order differential equation for each of the bodies simultaneously. We will do so using a numerical integration scheme. We extract the initial position and velocity of all the bodies from NASA's JPL Horizons database. We work in the rest frame of the Sun, so that the sun stays at rest at all times. 
+
+## Integration Schemes
+In the code, we have implemented two numerical integration schemes: the Forward-Euler scheme and the Runge-Kutta scheme. The former is known for its simplicity, at the expense of accuracy. The latter is known for its accuracy, at the expense of simplicity. Both rely on the descretization of time and relating the state (i.e. velocity and position) of a body at the next timestep to those at previous timesteps. 
+
+### Forward Euler
+This 
 
 
 
