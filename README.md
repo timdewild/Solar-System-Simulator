@@ -50,11 +50,11 @@ In the code, we have implemented two numerical integration schemes: the Forward-
 This scheme is given by:
 ```math
 \begin{align}
-   \boldsymbol{v}_i^{(n+1)} & = \boldsymbol{v}_i^{n}+\boldsymbol{a}_i^{n}\;dt \\
-   \boldsymbol{r}_i^{(n+1)} & = \boldsymbol{r}_i^{n}+\boldsymbol{v}_i^{n}\;dt
+   \boldsymbol{v}_i^{n+1} & = \boldsymbol{v}_i^{n}+\boldsymbol{a}_i^{n}\;dt, \\
+   \boldsymbol{r}_i^{n+1} & = \boldsymbol{r}_i^{n}+\boldsymbol{v}_i^{n}\;dt.
 \end{align}
 ```
-
+The index $i$ labels the bodies, the index $n$ labels the time, which is descritized in steps of $dt$. 
 
 
 
