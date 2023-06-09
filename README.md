@@ -25,7 +25,9 @@ See the example notebook `example.ipynb`. Create a Jupyter notebook in the same 
 ## Integration Algorithms
 The solar system is essentially an $n$-body system of point-particles that interact gravitationally according to Newton's law of gravitation. For two bodies $i$ and $j$, separated a distance $\boldsymbol{r}_{ij}$, it reads:
 
-$$\boldsymbol{F}_{ij} = -\frac{Gm_im_j}{r_{ij}^2}\hat{\boldsymbol{r}}_{ij}.$$
+```math
+\boldsymbol{F}_{ij} = -\frac{Gm_im_j}{r_{ij}^2}\hat{\boldsymbol{r}}_{ij}.
+```
 
 
 ## References
