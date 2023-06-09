@@ -22,8 +22,8 @@ astroquery
 ## How to run
 See the example notebook `example.ipynb`. Create a Jupyter notebook in the same directory as where `main.py` is located and import the `Body` and `SolarSystem` classes. Using these classes, the animations can be generated as explained in the example notebook.
 
-## Integration Algorithms
-The solar system is essentially an $n$-body system of point-particles that interact gravitationally according to Newton's law of gravitation. For two bodies $i$ and $j$, separated by $\boldsymbol{r}_{ij}\equiv \boldsymbol{r}_i-\boldsymbol{r}_j$, the force on $i$ due to $j$ is:
+## The Solar System as a Gravitational $N$-body System
+The solar system is essentially an $N$-body system of point-particles that interact gravitationally according to Newton's law of gravitation. For two bodies $i$ and $j$, separated by $\boldsymbol{r}_{ij}\equiv \boldsymbol{r}_i-\boldsymbol{r}_j$, the force on $i$ due to $j$ is:
 
 ```math
 \boldsymbol{F}_{ij} = -\frac{Gm_im_j}{r_{ij}^2}\hat{\boldsymbol{r}}_{ij}.
