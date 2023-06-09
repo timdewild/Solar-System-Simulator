@@ -46,7 +46,7 @@ To find the orbits of the $N$ bodies, we have to solve this second order differe
 ## Integration Schemes
 In the code, we have implemented two numerical integration schemes in the `integrate()` method in the `SolarSystem` class: the Forward-Euler scheme and the Runge-Kutta scheme. The former is known for its simplicity, at the expense of accuracy. The latter is known for its accuracy, at the expense of simplicity. Both rely on the descretization of time and relating the state (i.e. velocity and position) of a body at the next timestep to those at previous timesteps. 
 
-### Forward Euler
+### Forward-Euler
 The Forward Euler integration scheme can be selected via the `method = 'FE'` keyword of `integrate()`. This scheme is given by:
 ```math
 \begin{align}
@@ -59,8 +59,8 @@ The index $i$ labels the bodies, the index $n$ labels the time, which is descrit
 ```math
 \boldsymbol{a}_i^{n} = \boldsymbol{a}_i(\boldsymbol{r}_i^n, \boldsymbol{r}_j^n). 
 ```
-
-
+### Runge-Kutta
+The Runge-Kutta integration method can be selected via the keyword `'RK'` and is the default option as well. In the equations below, we omit the body label $i$ for simplicity. 
 
 ## References
 
