@@ -20,7 +20,7 @@ astroquery
 ```
 
 ## How to run
-See the example notebook `example.ipynb`. Create a Jupyter notebook in the same directory as where `main.py
+See the example notebook `example.ipynb`. Create a Jupyter notebook in the same directory as where `main.py` is located and import the `Body` and `SolarSystem` classes. Using these classes, the animations can be generated as explained in the example notebook.
 
 ## References
 
