@@ -20,13 +20,7 @@ astroquery
 ```
 
 ## How to run
-With the required modules installed, simply run the program, e.g. in UNIX command line, with
-```bash
-python solar_system.py
-```
-Modify `sim_duration` in the beginning of the code to change the duration of the simulation.
-
-To make a different initial condition, modify and run get_initial_condition.py.
+See the example notebook `example.ipynb`. Create a Jupyter notebook in the same directory as where `main.py
 
 ## References
 
